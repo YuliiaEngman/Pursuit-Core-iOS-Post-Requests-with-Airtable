@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F80113F23AAC0610022CE1B /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80113E23AAC0610022CE1B /* Secrets.swift */; };
 		CD01CDB42326B70F002D0255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01CDB32326B70F002D0255 /* AppDelegate.swift */; };
 		CD01CDB62326B70F002D0255 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01CDB52326B70F002D0255 /* ProjectsViewController.swift */; };
 		CD01CDB92326B70F002D0255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD01CDB72326B70F002D0255 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F80113E23AAC0610022CE1B /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		CD01CDB02326B70F002D0255 /* PostRequestsWithAirtable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostRequestsWithAirtable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD01CDB32326B70F002D0255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD01CDB52326B70F002D0255 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F80113D23AAC0120022CE1B /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				0F80113E23AAC0610022CE1B /* Secrets.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
 		CD01CDA72326B70F002D0255 = {
 			isa = PBXGroup;
 			children = (
+				0F80113D23AAC0120022CE1B /* Secrets */,
 				CDEB5DF02326BC8200DE505F /* AirtableSampleResponse.json */,
 				CD01CDB22326B70F002D0255 /* PostRequestsWithAirtable */,
 				CD01CDC72326B711002D0255 /* PostRequestsWithAirtableTests */,
@@ -275,6 +286,7 @@
 				CDEB5DF32326C5E100DE505F /* NetworkHelper.swift in Sources */,
 				CD01CDD42326B819002D0255 /* AirtableResponse.swift in Sources */,
 				CDEB5DF62326C62200DE505F /* AppError.swift in Sources */,
+				0F80113F23AAC0610022CE1B /* Secrets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
